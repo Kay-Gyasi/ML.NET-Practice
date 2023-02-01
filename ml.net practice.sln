@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Models", "Practice.Models\Practice.Models.csproj", "{2C04DFA7-0CAC-46C5-ABFD-5A454D7ABA87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.Models", "Practice.Models\Practice.Models.csproj", "{2C04DFA7-0CAC-46C5-ABFD-5A454D7ABA87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.UI", "Practice.UI\Practice.UI.csproj", "{2525F197-AABB-42CF-9CB6-285AAC6E1125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.UI", "Practice.UI\Practice.UI.csproj", "{2525F197-AABB-42CF-9CB6-285AAC6E1125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

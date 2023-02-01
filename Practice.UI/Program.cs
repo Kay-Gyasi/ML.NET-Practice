@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using Practice.Models.Data_Preprocessing;
+using Practice.Models.Data_Preprocessing.AutoPass;
 using Practice.Models.Extensions;
 
 var autoPassModel = new AutoPassModel();

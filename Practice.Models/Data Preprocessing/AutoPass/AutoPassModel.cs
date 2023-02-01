@@ -2,7 +2,7 @@
 using Microsoft.ML.Data;
 using Practice.Models.Extensions;
 
-namespace Practice.Models.Data_Preprocessing;
+namespace Practice.Models.Data_Preprocessing.AutoPass;
 
 public class AutoPassModel
 {
@@ -21,8 +21,8 @@ public class AutoPassModel
 
         var data = loader.Load(DataPath.AutoPass);
 
-        var pipeline = context.Transforms.Categorical.OneHotEncoding("Carname",
-                "Carname")
+        var pipeline = 
+            context.Transforms.Categorical.OneHotEncoding("Carname", "Carname")
             .Append(context.Transforms.Categorical.OneHotEncoding("Color", "Color"))
             .Append(context.Transforms.NormalizeMinMax("Age", "Age"))
             .Append(context.Transforms.NormalizeMinMax("Speed", "Speed"))

@@ -20,6 +20,7 @@ public static class DataViewHelper
             {
             }
         }
+        
         foreach (var row in preview.RowView)
         {
             var r = dt.NewRow();
